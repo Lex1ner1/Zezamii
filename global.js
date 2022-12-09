@@ -20,14 +20,14 @@ const db = firebase.firestore();
 
 // Finalising the global config.
 
-// var logoutButton = document.getElementById("logoutButton");
-// if (typeof logoutButton !== null) {
-//   logoutButton.addEventListener("click", handleSignOut);
-// } else {
-// }
+var logoutButton = document.getElementById("logoutButton");
+if (typeof logoutButton !== null) {
+  logoutButton.addEventListener("click", handleSignOut);
+} else {
+}
 
-// function handleSignOut() {
-//   window.location.replace("./log-in");
-//   console.log("user signed out");
-//   // Sign-out successful.
-// }
+function handleSignOut() {
+  window.location.replace("./log-in");
+  console.log("user signed out");
+  // Sign-out successful.
+}
