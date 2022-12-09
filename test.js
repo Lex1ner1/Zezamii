@@ -1,3 +1,3 @@
-export const testing = () => {
+const testing = () => {
   console.log("this works.");
 };
