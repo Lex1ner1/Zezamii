@@ -18,6 +18,8 @@ var webFlowAuth = {
 firebase.initializeApp(webFlowAuth.firebaseConfig);
 const db = firebase.firestore();
 
+// Finalising the global config.
+
 // var logoutButton = document.getElementById("logoutButton");
 // if (typeof logoutButton !== null) {
 //   logoutButton.addEventListener("click", handleSignOut);
