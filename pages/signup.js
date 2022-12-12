@@ -48,7 +48,6 @@ async function signup(event) {
         .set(obj)
         .then(function (e) {
           console.log(user.uid);
-          console.log(WebFlowAuth.signupRedirectPath);
         })
         .catch((e) => {
           errorManager.firestoreUserError = e;
